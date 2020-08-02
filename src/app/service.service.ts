@@ -14,7 +14,7 @@ export class ServiceService {
 
       },
       {
-        description:"hnmbn hbn", 
+        description:"does front and back end development.", 
         jobTitle:"Full Stack",
            
       },
