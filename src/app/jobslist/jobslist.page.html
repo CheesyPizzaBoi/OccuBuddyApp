@@ -1,0 +1,10 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>{{jobs.category}}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content *ngFor = "let job of jobs.jobs">
+  <p>{{job.jobTitle}}</p>
+</ion-content>
+<ion-button [routerLink]="['/tabs/tab2']">Go  Back</ion-button>
